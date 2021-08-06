@@ -11,6 +11,8 @@
 		C441708C26BDD67F00821957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441708B26BDD67F00821957 /* ContentView.swift */; };
 		C441708E26BDD68000821957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C441708D26BDD68000821957 /* Assets.xcassets */; };
 		C441709126BDD68000821957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C441709026BDD68000821957 /* Preview Assets.xcassets */; };
+		C441709926BDD6AF00821957 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441709826BDD6AF00821957 /* Home.swift */; };
+		C441709B26BDD79800821957 /* FullSwipePopExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441709A26BDD79800821957 /* FullSwipePopExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C441708B26BDD67F00821957 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C441708D26BDD68000821957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C441709026BDD68000821957 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C441709826BDD6AF00821957 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C441709A26BDD79800821957 /* FullSwipePopExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSwipePopExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		C441708826BDD67F00821957 /* FullPop */ = {
 			isa = PBXGroup;
 			children = (
+				C441709726BDD6A100821957 /* View */,
 				C441708926BDD67F00821957 /* FullPopApp.swift */,
 				C441708B26BDD67F00821957 /* ContentView.swift */,
 				C441708D26BDD68000821957 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				C441709026BDD68000821957 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C441709726BDD6A100821957 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C441709826BDD6AF00821957 /* Home.swift */,
+				C441709A26BDD79800821957 /* FullSwipePopExtension.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C441708C26BDD67F00821957 /* ContentView.swift in Sources */,
+				C441709B26BDD79800821957 /* FullSwipePopExtension.swift in Sources */,
+				C441709926BDD6AF00821957 /* Home.swift in Sources */,
 				C441708A26BDD67F00821957 /* FullPopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +293,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
